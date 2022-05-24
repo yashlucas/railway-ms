@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
+   <children>
+      <ImageView fitHeight="265.0" fitWidth="244.0" layoutX="263.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic1.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="265.0" fitWidth="244.0" layoutX="7.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic1.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="373.0" fitWidth="600.0" layoutY="8.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic.jpeg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="36.0" layoutY="100.0" promptText="Enter first Name" />
+      <TextField layoutX="247.0" layoutY="161.0" promptText="Enter Aadhar card number" />
+      <TextField layoutX="427.0" layoutY="100.0" promptText="Enter last name" />
+      <TextField layoutX="36.0" layoutY="221.0" promptText="Enter e-mail id" />
+      <TextField layoutX="427.0" layoutY="161.0" promptText="Enter phone number" />
+      <TextField layoutX="247.0" layoutY="221.0" promptText="Enter city" />
+      <TextField layoutX="247.0" layoutY="100.0" promptText="Enter middle name" />
+      <DatePicker layoutX="36.0" layoutY="159.0" prefHeight="26.0" prefWidth="186.0" promptText="Enter date of birth" />
+      <TextField layoutX="-4.0" layoutY="8.0" prefHeight="24.0" prefWidth="600.0" style="-fx-alignment: CENTER; -fx-background-color: white; -fx-font-size: 13; -fx-font-style: BOLD;" text="WELCOME TO IRCTC REGISTRTION,  PLEASE ENTER YOUR DETAILS">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="69.0" fitWidth="89.0" layoutX="546.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <CheckBox layoutX="36.0" layoutY="256.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="201.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I agree all terms and conditions." />
+      <CheckBox layoutX="36.0" layoutY="293.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="227.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I have read all rules and regulations" />
+      <Button layoutX="490.0" layoutY="305.0" mnemonicParsing="false" onAction="#onHelloButtonClick4" style="-fx-background-color: blue; -fx-text-fill: white;" text="Submit" />
+   </children>
+</AnchorPane>

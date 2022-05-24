@@ -25,12 +25,43 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick_1() throws IOException
     {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login_1.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
         stage.setTitle("Railway  System");
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    protected void onHelloButtonClick_2() throws IOException
+    {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("page2.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Stage stage = new Stage();
+        stage.setTitle("Railway  System");
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    protected void onHelloButtonClick_3() throws IOException
+    {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("about.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Stage stage = new Stage();
+        stage.setTitle("Railway  System");
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    protected void onHelloButtonClick4() throws IOException
+    {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("page2.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Stage stage = new Stage();
+        stage.setTitle("Railway System");
+        stage.setScene(scene);
+        stage.show();
+    }
+
 
 }

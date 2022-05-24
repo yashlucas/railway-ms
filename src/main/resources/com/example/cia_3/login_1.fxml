@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="-8.0" prefHeight="417.0" prefWidth="703.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="392.0" layoutX="59.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="291.0" />
+            <TextField layoutX="82.0" layoutY="94.0" style="-fx-font-style: bold;" text="User name">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></TextField>
+            <TextField layoutX="82.0" layoutY="131.0" text="Password" />
+            <Text layoutX="136.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Line endX="100.0" layoutX="205.0" layoutY="77.0" startX="-100.0" />
+            <Button layoutX="75.0" layoutY="362.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="201.0" style="-fx-font-style: BOLD;" text="SIGN IN">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@qq1.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="76.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type in the text below: 5tyq1" wrappingWidth="208.21630859375">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField layoutX="75.0" layoutY="300.0" prefHeight="26.0" prefWidth="191.0" text="Type here" />
+            <Button layoutX="76.0" layoutY="335.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="121.0" style="-fx-font-style: BOLD;" text="FORGOT PASSWORD">
+               <font>
+                  <Font name="System Italic" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

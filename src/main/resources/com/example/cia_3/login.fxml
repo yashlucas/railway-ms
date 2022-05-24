@@ -16,27 +16,27 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
    <children>
-      <ImageView fitHeight="354.0" fitWidth="600.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="354.0" fitWidth="600.0" layoutY="13.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@indian-railways.jpeg" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="223.0" layoutX="14.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="223.0" layoutX="14.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="288.0" />
       <TextField layoutX="21.0" layoutY="169.0" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: white;" text="To" />
       <TextField layoutX="21.0" layoutY="100.0" onAction="#onHelloButtonClick_1" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: white;" text="From" />
-      <Button layoutX="31.0" layoutY="256.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Submit" />
-      <DatePicker layoutX="135.0" layoutY="126.0" prefHeight="26.0" prefWidth="136.0" promptText="DD/MM/YYYY" />
+      <Button layoutX="31.0" layoutY="256.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Search" />
+      <DatePicker layoutX="145.0" layoutY="100.0" prefHeight="26.0" prefWidth="136.0" promptText="DD/MM/YYYY" />
     <CheckBox layoutX="20.0" layoutY="225.0" prefHeight="25.0" prefWidth="172.0" text="Felxible with dates" />
       <CheckBox layoutX="117.0" layoutY="259.0" prefHeight="25.0" prefWidth="172.0" text="Person with disability" />
-      <MenuButton layoutX="174.0" layoutY="188.0" mnemonicParsing="false" text="All Classes">
+      <MenuButton layoutX="203.0" layoutY="182.0" mnemonicParsing="false" text="Quota">
         <items>
-            <MenuItem mnemonicParsing="false" text="3rd AC" />
-          <MenuItem mnemonicParsing="false" text="2nd AC" />
-            <MenuItem mnemonicParsing="false" text="1st AC" />
-            <MenuItem mnemonicParsing="false" text="Sleeper" />
+            <MenuItem mnemonicParsing="false" text="General" />
+          <MenuItem mnemonicParsing="false" text="Tatkal" />
+            <MenuItem mnemonicParsing="false" text="Premium Tatkal" />
+            <MenuItem mnemonicParsing="false" text="Seniour citizen" />
         </items>
       </MenuButton>
-      <TextField layoutY="14.0" prefHeight="36.0" prefWidth="544.0" style="-fx-alignment: CENTER; -fx-background-size: 40; -fx-background-color: BLUE; -fx-font-size: 20; -fx-text-fill: WHITE;" text="WELCOME TO INDIAN RAILWAYS">
+      <TextField layoutX="103.0" layoutY="15.0" prefHeight="36.0" prefWidth="398.0" style="-fx-alignment: CENTER; -fx-background-size: 40; -fx-background-color: BLUE; -fx-font-size: 20; -fx-text-fill: WHITE;" text="WELCOME TO INDIAN RAILWAYS">
          <font>
             <Font size="20.0" />
          </font>
@@ -47,9 +47,25 @@
             <Bloom />
          </effect>
       </TextField>
-      <ImageView fitHeight="61.0" fitWidth="57.0" layoutX="544.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="80.0" fitWidth="68.0" layoutX="519.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="169.0" layoutY="355.0" mnemonicParsing="false" onAction="#onHelloButtonClick_1" prefHeight="31.0" prefWidth="112.0" text="Login" />
+      <Button layoutX="300.0" layoutY="355.0" mnemonicParsing="false" onAction="#onHelloButtonClick_2" prefHeight="31.0" prefWidth="112.0" text="Register" />
+      <Button layoutX="432.0" layoutY="355.0" mnemonicParsing="false" onAction="#onHelloButtonClick_3" prefHeight="31.0" prefWidth="112.0" text="Know about us" />
+      <MenuButton layoutX="169.0" layoutY="142.0" mnemonicParsing="false" text="All Classes">
+         <items>
+            <MenuItem mnemonicParsing="false" text="3rd AC" />
+            <MenuItem mnemonicParsing="false" text="2nd AC" />
+            <MenuItem mnemonicParsing="false" text="1st AC" />
+            <MenuItem mnemonicParsing="false" text="Sleeper" />
+         </items>
+      </MenuButton>
+      <ImageView fitHeight="68.0" fitWidth="72.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@secondry-logo.png" />
          </image>
       </ImageView>
    </children>
