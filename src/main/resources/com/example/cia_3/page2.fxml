@@ -7,8 +7,8 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
    <children>
@@ -22,7 +22,7 @@
             <Image url="@pic1.jpeg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="373.0" fitWidth="600.0" layoutY="8.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="373.0" fitWidth="600.0" layoutY="30.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@pic.jpeg" />
          </image>
@@ -45,8 +45,12 @@
             <Image url="@logo.png" />
          </image>
       </ImageView>
-      <CheckBox layoutX="36.0" layoutY="256.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="201.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I agree all terms and conditions." />
-      <CheckBox layoutX="36.0" layoutY="293.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="227.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I have read all rules and regulations" />
+      <CheckBox layoutX="36.0" layoutY="275.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="201.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I agree all terms and conditions." />
+      <CheckBox layoutX="36.0" layoutY="319.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="227.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I have read all rules and regulations" />
       <Button layoutX="490.0" layoutY="305.0" mnemonicParsing="false" onAction="#onHelloButtonClick4" style="-fx-background-color: blue; -fx-text-fill: white;" text="Submit" />
+      <Line endX="492.0" layoutX="108.0" layoutY="136.0" startX="-115.5" />
+      <Line endX="482.0" endY="61.0" layoutX="118.0" layoutY="146.0" startX="-118.0" startY="61.0" />
+      <Line endX="494.79290771484375" endY="119.0" layoutX="118.0" layoutY="146.0" startX="-118.0" startY="110.0" />
+      <TextField layoutX="427.0" layoutY="221.0" promptText="Enter passwrod" />
    </children>
 </AnchorPane>

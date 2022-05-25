@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -29,8 +31,10 @@
                </font>
             </Text>
             <Line endX="83.5" layoutX="476.0" layoutY="55.0" startX="-60.5" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="275.0" layoutX="168.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
-            <Text layoutX="191.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: BLUE; -fx-font-size-fx-font-size: 12;" text="Indian Railway Catering and Tourism Corporation Ltd. (IRCTC) is a “Mini Ratna (Category-I)” Central Public Sector Enterprise under Ministry of Railways, Government of India. IRCTC was incorporated on 27th September, 1999 as an extended arm of the Indian Railways to upgrade, professionalize and manage the catering and hospitality services at stations, on trains and other locations and to promote domestic and international tourism through development of budget hotels, special tour packages, information &amp; commercial publicity and global reservation systems. The authorized capital of the company is 250 crores and paid up capital is 160 crores. It’s registered and Corporate Office is situated at New Delhi." wrappingWidth="257.21630859375" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="312.0" layoutX="291.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
+            <Text layoutX="314.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: BLUE; -fx-font-size-fx-font-size: 12;" text="Indian Railway Catering and Tourism Corporation Ltd. (IRCTC) is a “Mini Ratna (Category-I)” Central Public Sector Enterprise under Ministry of Railways, Government of India. IRCTC was incorporated on 27th September, 1999 as an extended arm of the Indian Railways to upgrade, professionalize and manage the catering and hospitality services at stations, on trains and other locations and to promote domestic and international tourism through development of budget hotels, special tour packages, information &amp; commercial publicity and global reservation systems. The authorized capital of the company is 250 crores and paid up capital is 160 crores. It’s registered and Corporate Office is situated at New Delhi." wrappingWidth="257.21630859375" />
+            <TextField layoutX="34.0" layoutY="177.0" prefHeight="60.0" prefWidth="227.0" promptText="FEEDBACK" style="-fx-background-color: WHITE;" />
+            <Button layoutX="43.0" layoutY="260.0" mnemonicParsing="false" text="SUBMIT" />
          </children>
       </AnchorPane>
    </children>
