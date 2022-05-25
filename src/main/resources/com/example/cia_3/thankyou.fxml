@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
+   <children>
+      <AnchorPane prefHeight="418.0" prefWidth="611.0">
+         <children>
+            <TitledPane animated="false" prefHeight="418.0" prefWidth="611.0" text="RAILWAY MANAGEMET SYSTEM">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="352.0" fitWidth="611.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@qq1.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="383.0" fitWidth="642.0" layoutY="2.0" opacity="0.56" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@THANKYOU.jpeg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

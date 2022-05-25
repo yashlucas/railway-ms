@@ -12,9 +12,14 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
    <children>
-      <AnchorPane layoutX="-6.0" layoutY="-8.0" prefHeight="417.0" prefWidth="703.0">
+      <AnchorPane layoutX="-6.0" layoutY="-8.0" prefHeight="365.0" prefWidth="703.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="392.0" layoutX="59.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="291.0" />
+            <ImageView fitHeight="409.0" fitWidth="697.0" layoutX="6.0" layoutY="12.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@irctc2.jpeg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c8cacd" height="378.0" layoutX="59.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="275.0" />
             <TextField layoutX="82.0" layoutY="94.0" style="-fx-font-style: bold;" text="User name">
                <font>
                   <Font name="System Bold" size="13.0" />

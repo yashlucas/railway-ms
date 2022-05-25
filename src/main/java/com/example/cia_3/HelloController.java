@@ -62,6 +62,16 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    protected void onHelloButtonClick_5() throws IOException
+    {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("thankyou.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Stage stage = new Stage();
+        stage.setTitle("Railway System");
+        stage.setScene(scene);
+        stage.show();
+    }
 
 
 }
