@@ -46,7 +46,7 @@
          </image>
       </ImageView>
       <CheckBox layoutX="36.0" layoutY="275.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="201.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I agree all terms and conditions." />
-      <CheckBox layoutX="36.0" layoutY="319.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="227.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I have read all rules and regulations" />
+      <CheckBox layoutX="36.0" layoutY="306.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="227.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 13;" text="I have read all rules and regulations" />
       <Button layoutX="490.0" layoutY="305.0" mnemonicParsing="false" onAction="#onHelloButtonClick4" style="-fx-background-color: blue; -fx-text-fill: white;" text="Submit" />
       <Line endX="492.0" layoutX="108.0" layoutY="136.0" startX="-115.5" />
       <Line endX="482.0" endY="61.0" layoutX="118.0" layoutY="146.0" startX="-118.0" startY="61.0" />
