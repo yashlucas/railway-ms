@@ -10,7 +10,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
    <children>
       <AnchorPane layoutX="-8.0" prefHeight="400.0" prefWidth="600.0">
@@ -31,8 +30,8 @@
                </font>
             </Text>
             <Line endX="83.5" layoutX="476.0" layoutY="55.0" startX="-60.5" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="312.0" layoutX="291.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
-            <Text layoutX="314.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: BLUE; -fx-font-size-fx-font-size: 12;" text="Indian Railway Catering and Tourism Corporation Ltd. (IRCTC) is a “Mini Ratna (Category-I)” Central Public Sector Enterprise under Ministry of Railways, Government of India. IRCTC was incorporated on 27th September, 1999 as an extended arm of the Indian Railways to upgrade, professionalize and manage the catering and hospitality services at stations, on trains and other locations and to promote domestic and international tourism through development of budget hotels, special tour packages, information &amp; commercial publicity and global reservation systems. The authorized capital of the company is 250 crores and paid up capital is 160 crores. It’s registered and Corporate Office is situated at New Delhi." wrappingWidth="257.21630859375" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="312.0" layoutX="291.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
+            <Text layoutX="314.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: WHITE; -fx-font-size-fx-font-size: 12;" text="Indian Railway Catering and Tourism Corporation Ltd. (IRCTC) is a “Mini Ratna (Category-I)” Central Public Sector Enterprise under Ministry of Railways, Government of India. IRCTC was incorporated on 27th September, 1999 as an extended arm of the Indian Railways to upgrade, professionalize and manage the catering and hospitality services at stations, on trains and other locations and to promote domestic and international tourism through development of budget hotels, special tour packages, information &amp; commercial publicity and global reservation systems. The authorized capital of the company is 250 crores and paid up capital is 160 crores. It’s registered and Corporate Office is situated at New Delhi." wrappingWidth="257.21630859375" />
             <TextField layoutX="34.0" layoutY="177.0" prefHeight="60.0" prefWidth="227.0" promptText="FEEDBACK" style="-fx-background-color: WHITE;" />
             <Button layoutX="43.0" layoutY="260.0" mnemonicParsing="false" onAction="#onHelloButtonClick_5" text="SUBMIT" />
          </children>
