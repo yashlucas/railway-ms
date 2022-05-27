@@ -52,6 +52,17 @@
                   <Font name="System Italic" size="10.0" />
                </font>
             </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="368.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bhud.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="368.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: WHITE;" text="Buddhist Circuit Tourist TrainIndia, the country where Buddhism originated has rich memories of the Buddhist legacy. As part of its drive towards austerity, the only kind of art &amp; architecture that it supported were Stupas, Chaityas &amp; Viharas. Buddhist Train India will help you visit all these places up close for a truly religious experience." wrappingWidth="159.5" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="518.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@GC1.jpeg" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </children>
