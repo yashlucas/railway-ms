@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="595.0" prefWidth="1044.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.HelloController">
+   <children>
+      <TableView layoutX="49.0" layoutY="138.0" prefHeight="200.0" prefWidth="717.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="TRAIN_NO" />
+          <TableColumn prefWidth="114.0" text="TRAIN_NAME" />
+            <TableColumn prefWidth="114.0" text="DEP_STATION" />
+            <TableColumn prefWidth="132.0" text="ARRIVAL_STATION" />
+            <TableColumn prefWidth="97.0" text="DEP_TIME" />
+            <TableColumn prefWidth="113.0" text="ARRIVAL_TIME" />
+            <TableColumn prefWidth="74.0" text="DAYS" />
+        </columns>
+      </TableView>
+      <Button layoutX="347.0" layoutY="480.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

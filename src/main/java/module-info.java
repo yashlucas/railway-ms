@@ -10,6 +10,7 @@ module com.example.cia_3 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.example.cia_3 to javafx.fxml;
     exports com.example.cia_3;

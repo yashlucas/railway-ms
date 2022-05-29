@@ -20,18 +20,18 @@
                </image>
             </ImageView>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c8cacd" height="378.0" layoutX="59.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="275.0" />
-            <TextField layoutX="82.0" layoutY="94.0" style="-fx-font-style: bold;" text="User name">
+            <TextField fx:id="username" layoutX="82.0" layoutY="94.0" style="-fx-font-style: bold;" text="User name">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font></TextField>
-            <TextField layoutX="82.0" layoutY="131.0" text="Password" />
+            <TextField fx:id="password" layoutX="82.0" layoutY="131.0" text="Password" />
             <Text layoutX="136.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
                <font>
                   <Font size="48.0" />
                </font>
             </Text>
             <Line endX="100.0" layoutX="205.0" layoutY="77.0" startX="-100.0" />
-            <Button layoutX="75.0" layoutY="362.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="201.0" style="-fx-font-style: BOLD;" text="SIGN IN">
+            <Button fx:id="login" layoutX="75.0" layoutY="360.0" mnemonicParsing="false" onAction="#onHelloButtonClick_7" prefHeight="26.0" prefWidth="201.0" style="-fx-font-style: BOLD;" text="SIGN IN">
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
