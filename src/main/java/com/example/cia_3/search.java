@@ -14,40 +14,41 @@ import javafx.scene.control.cell.PropertyValueFactory;
 public class search {
 
     @FXML
-    private TableView<search1> searchtable; // fx:id of Table
+    private TableView<search1> table; // fx:id of Table
 
     @FXML
-    private TableColumn<search1, String> ap_TRAIN_NO; // fx:id of column Time
+    private TableColumn<search1, String> trainno; // fx:id of column Time
 
     @FXML
-    private TableColumn<search1, String> ap_TRAIN_NAME; // fx:id of column Route
+    private TableColumn<search1, String> trainname; // fx:id of column Route
 
     @FXML
-    private TableColumn<search1, String> ap_DEP_STATION; // fx:id of column Aircraft
+    private TableColumn<search1, String> depstation; // fx:id of column Aircraft
 
     @FXML
-    private TableColumn<search1, String> ap_ARRIVAL_STATION; // fx:id of column Type
+    private TableColumn<search1, String> arrivalstation; // fx:id of column Type
 
     @FXML
-    private TableColumn<search1, String> ap_DEP_TIME; // fx:id of column Type
+    private TableColumn<search1, String> deptime; // fx:id of column Type
 
     @FXML
-    private TableColumn<search1, String> ap_ARRIVAL_TIME; // fx:id of column Type
+    private TableColumn<search1, String> arrivaltime; // fx:id of column Type
 
     @FXML
-    private TableColumn<search1, String> ap_DAYS; // fx:id of column Type
+    private TableColumn<search1, String> days
+            ; // fx:id of column Type
 
 
 
 
-    public void distancetable(ActionEvent event){ // method for Bangalore Airport option
+    public void distancetable(ActionEvent event){ //
 
         ObservableList<search1> oblist = FXCollections.observableArrayList();
         try {
 
-            Connection connectDB = DBconnect.getConnection();
+            Connection connectDB =  DBconnect.getConnection();
 
-            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM RAILWAY.TRAIN_DETAILS");
+            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM trains_india");
             System.out.println(Result);
 
             // Fetching Data from the columns of the table from database
@@ -69,18 +70,18 @@ public class search {
         // Assigning Data from database to the columns of the tableview
 
 
-        ap_TRAIN_NO.setCellValueFactory(new PropertyValueFactory<>("TRAIN_NO"));
-        ap_TRAIN_NAME.setCellValueFactory(new PropertyValueFactory<>("TRAIN_NAME"));
-        ap_DEP_STATION.setCellValueFactory(new PropertyValueFactory<>("DEP_STATION"));
-        ap_ARRIVAL_STATION.setCellValueFactory(new PropertyValueFactory<>("ARRIVAL_STATION"));
-        ap_DEP_TIME.setCellValueFactory(new PropertyValueFactory<>("DEP_TIME"));
-        ap_ARRIVAL_TIME.setCellValueFactory(new PropertyValueFactory<>("ARRIVAL_TIME"));
-        ap_DAYS.setCellValueFactory(new PropertyValueFactory<>("DAYS"));
+        trainno.setCellValueFactory(new PropertyValueFactory<>("TRAIN_NO"));
+        trainname.setCellValueFactory(new PropertyValueFactory<>("TRAIN_NAME"));
+        depstation.setCellValueFactory(new PropertyValueFactory<>("DEP_STATION"));
+        arrivalstation.setCellValueFactory(new PropertyValueFactory<>("ARRIVAL_STATION"));
+        deptime.setCellValueFactory(new PropertyValueFactory<>("DEP_TIME"));
+        arrivaltime.setCellValueFactory(new PropertyValueFactory<>("ARRIVAL_TIME"));
+        days.setCellValueFactory(new PropertyValueFactory<>("DAYS"));
 
 
 
 
-        searchtable.setItems(oblist);
+        table.setItems(oblist);
 
 
     }
