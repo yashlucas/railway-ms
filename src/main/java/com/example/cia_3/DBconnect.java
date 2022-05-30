@@ -8,7 +8,7 @@ public class DBconnect {
     public static Connection getConnection() throws SQLException {
         String databaseName ="RAILWAY"; // Database Name
         String databaseUser = "root"; // Database User
-        String databasePassword = "Anukriti2411"; // Database Password
+        String databasePassword = "Carto1802"; // Database Password
         String url = "jdbc:mysql://localhost:3306/" + databaseName + "?useSSL=false"; // Database URL
         Connection connection = null;
         try {
