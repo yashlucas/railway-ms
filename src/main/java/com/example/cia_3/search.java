@@ -56,7 +56,7 @@ public class search {
             while (Result.next()) {
                 oblist.add(new search1(Result.getString("TRAIN_NO"),
                         Result.getString("TRAIN_NAME"),
-                        Result.getString("DEP_STATION"),
+                        Result.getString("DES_STATION"),
                         Result.getString("ARRIVAL_STATION"),
                         Result.getString("DEP_TIME"),
                         Result.getString("ARRIVAL_TIME"),
