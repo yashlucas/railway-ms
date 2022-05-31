@@ -5,7 +5,6 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="595.0" prefWidth="1044.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia_3.search">
    <children>
       <TableView fx:id="table" layoutX="49.0" layoutY="138.0" prefHeight="200.0" prefWidth="717.0">
@@ -19,6 +18,7 @@
             <TableColumn fx:id="days" prefWidth="74.0" text="DAYS" />
         </columns>
       </TableView>
-      <Button onAction="#distancetable" layoutX="347.0" layoutY="480.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="65.0" layoutY="488.0" mnemonicParsing="false" onAction="#distancetable" text="Click here to view trains" />
+      <Button layoutX="692.0" layoutY="489.0" mnemonicParsing="false" onAction="#onHelloButtonClickon10" text="Exit" />
    </children>
 </AnchorPane>
